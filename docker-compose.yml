@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  nuxt:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "80:3000"
+    environment:
+      PRODUCTS_API_URL: ${BASE_URL}
