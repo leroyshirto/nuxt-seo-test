@@ -30,6 +30,9 @@ Simple client side webapp to test how seo friendly a server side rendered nuxt a
 # install dependencies
 $ npm install
 
+# copy in config
+$ cp .env.example .env
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
