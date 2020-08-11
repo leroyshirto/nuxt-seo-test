@@ -3,7 +3,7 @@
     <div class="card-image">
         <a :href="`/products/${product.id}`">
           <figure class="image is-4by3">
-          <img :src="`${product.image}?seed=${product.id}`" alt="Product Cover" loading="lazy">
+          <img :src="`${product.image}`" alt="Product Cover" loading="lazy">
           </figure>
         </a>
     </div>
