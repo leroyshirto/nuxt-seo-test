@@ -1,6 +1,28 @@
 # nuxt-seo-test
 
-> social meta tagging test
+Simple client side webapp to test how seo friendly a server side rendered nuxt app can be.
+
+## Requirements
+
+- dynamic title and description headers are read
+- dynamic open graph headers can be read
+- page data from async requests is indexed
+- sitemap can be traversed
+
+### Validation
+
+- https://developers.facebook.com/tools/debug/
+- https://cards-dev.twitter.com/validator
+
+### SEO test sites
+
+- https://www.seobility.net/en/seocheck/
+- https://seositecheckup.com/
+
+### Page speed insights
+
+- https://developers.google.com/speed/pagespeed/insights/
+- https://www.webpagetest.org/
 
 ## Build Setup
 

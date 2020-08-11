@@ -54,7 +54,7 @@ export default {
         },
         {
           'property':  'og:url',
-          'content':  'http://localhost:3000',
+          'content':  process.env.baseURL,
         },
         {
           'name':  'twitter:card',

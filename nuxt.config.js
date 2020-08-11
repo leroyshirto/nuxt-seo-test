@@ -16,7 +16,8 @@ module.exports = {
     ]
   },
   env: {
-    productsAPI: process.env.PRODUCTS_API_URL || 'http://localhost:3000'
+    baseURL: process.env.BASE_URL,
+    productsAPI: process.env.PRODUCTS_API_URL
   },
   /*
   ** Customize the progress-bar color
