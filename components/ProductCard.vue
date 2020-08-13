@@ -11,7 +11,7 @@
         <div class="media">
         <div class="media-content">
             <p class="title is-4">
-              <n-link :to="`/products/${product.id}`" no-prefetch>{{product.name}}</n-link>
+              <n-link :to="`/products/${product.id}`">{{product.name}}</n-link>
             </p>
         </div>
         </div>
