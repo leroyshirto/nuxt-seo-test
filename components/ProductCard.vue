@@ -10,7 +10,9 @@
     <div class="card-content">
         <div class="media">
         <div class="media-content">
-            <p class="title is-4"><a :href="`/products/${product.id}`">{{product.name}}</a></p>
+            <p class="title is-4">
+              <n-link :to="`/products/${product.id}`" no-prefetch>{{product.name}}</n-link>
+            </p>
         </div>
         </div>
 
